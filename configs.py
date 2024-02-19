@@ -3,14 +3,14 @@ import os, time
 #from pyrogram.types import BotCommand
 
 class Config:
-    API_ID = int(getenv("API_ID", "0112234"))
-    API_HASH = getenv("API_HASH", "abcdefg")
-    BOT_TOKEN = getenv("BOT_TOKEN", "1234567891:rkndeveloperDEhdhyjjvjjftSEW")
-    UPDATE_CHANNEL = getenv("UPDATE_CHANNEL", "RknDeveloper")
-    UPDATECHANNEL_ID = int(getenv("UPDATECHANNEL_ID", "-1001819787652"))
-    ADMIN = list(map(int, getenv("ADMIN", "6151758586").split()))
-    MONGO_URI = getenv("MONGO_URI", "")
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002120760645"))
+    API_ID = int(getenv("API_ID", "21948646"))
+    API_HASH = getenv("API_HASH", "289bdc44e67dc6992150dd8cf731c5b7")
+    BOT_TOKEN = getenv("BOT_TOKEN", "6891263386:AAGdH44TNWeShyBn0qma1DEcpXBAAGksl9A")
+    UPDATE_CHANNEL = getenv("UPDATE_CHANNEL", "bot_admin44")
+    UPDATECHANNEL_ID = int(getenv("UPDATECHANNEL_ID", "-1002079645610"))
+    ADMIN = list(map(int, getenv("ADMIN", "5521380948").split()))
+    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://Rohit44:Rohit44@cluster0.pfgkii2.mongodb.net/?retryWrites=true&w=majority")
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002063351511"))
     
     #web response 
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
